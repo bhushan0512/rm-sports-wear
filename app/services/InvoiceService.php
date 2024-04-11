@@ -44,7 +44,7 @@ class InvoiceService {
             ->date($order->created_at)
             ->dateFormat('m/d/Y')
             ->payUntilDays(14)
-            ->currencySymbol('$')
+            ->currencySymbol('₹')
             ->currencyCode('USD')
             ->currencyFormat('{SYMBOL}{VALUE}')
             ->currencyThousandsSeparator('.')

@@ -50,12 +50,12 @@ class ProductResource extends Resource
                     ->required(),
                 Forms\Components\TextInput::make('price')
                     ->numeric()
-                    ->prefix('$')
+                    ->prefix('₹')
                     ->rules(['min:0'])
                     ->required(),
                 Forms\Components\TextInput::make('old_price')
                     ->numeric()
-                    ->prefix('$')
+                    ->prefix('₹')
                     ->rules(['min:0'])
                     ->required(),
                 Forms\Components\TextInput::make('quantity')->numeric(),
@@ -130,7 +130,7 @@ class ProductResource extends Resource
                 Tables\Columns\ImageColumn::make('image'),
                 Tables\Columns\TextColumn::make('name')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('SKU')->searchable()->sortable(),
-                Tables\Columns\TextColumn::make('price')->prefix('$')->sortable(),
+                Tables\Columns\TextColumn::make('price')->prefix('₹')->sortable(),
                 Tables\Columns\TextColumn::make('quantity')->sortable(),
                 Tables\Columns\TextColumn::make('created_at')->sortable()->date('M d H:i'),
                 Tables\Columns\TextColumn::make('updated_at')->sortable()->date('M d H:i'),
