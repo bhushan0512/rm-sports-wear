@@ -43,7 +43,7 @@
                                     </div>
                                     <div class="product_sort_info font-xs mb-30">
                                         <ul>
-                                            <li class="mb-10"><i class="fi-rs-crown mr-5"></i> 1 Year AL Jazeera Brand
+                                            <li class="mb-10"><i class="fi-rs-crown mr-5"></i> 1 Year RM Sports Wear Brand
                                                 Warranty</li>
                                             <li class="mb-10"><i class="fi-rs-refresh mr-5"></i> 30 Day Return Policy
                                             </li>
