@@ -1,3 +1,4 @@
+This is a simple website used for Tshirt booking, payment and order tracking, built majorly using Laravel and also including Vue.js, Vite, Restful API's, Stripe, JQuery and other components.
 # Setup
 ```
     composer install
